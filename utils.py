@@ -4,7 +4,7 @@ import numpy as np
 from config import OLLAMA_EMBEDDING_MODEL, PDF_FILE_PATH, CHUNK_SIZE, CHUNK_OVERLAP, OLLAMA_LLM_MODEL  # Import the new variable
 from typing import Union, AsyncIterator, Dict  # Import Union
 
-async def _ollama_model_if_cache(  # Renamed function
+async def _ollama_model_if_cache(  # Renamed functions
     model_name: str,
     prompt: str,
     system_prompt: str | None = None,
